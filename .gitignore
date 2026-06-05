@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local environments
+.venv/
+venv/
+.env
+.env.*
+
+# Runtime outputs and experiments
+outputs/
+outputs-*/
+*.jsonl.tmp
+
+# Local data/model artifacts
+alarm_his_*.csv
+*.gguf
+models/
+
+# Editor/OS noise
+.DS_Store
+.idea/
+.vscode/
